@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     
     <nav>
-      <ul>
+      <ul className="flex">
         <li>
           <Link to="/">Home</Link>
         </li>

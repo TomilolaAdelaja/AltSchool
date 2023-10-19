@@ -7,6 +7,7 @@ import SharedLayout from "./SharedLayout";
 import NotFound from "./pages/NotFoundPage";
 import { AuthProvider } from "./components/AuthContext";
 import Navigation from "./components/nav-menu";
+import "./App.css";
 
 function App() {
   return (
