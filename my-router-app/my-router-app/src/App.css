@@ -20,10 +20,27 @@
 
 h1 {
   font-size: 50px;
+  
 }
+
+
+
+.section {
+  background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+  min-height: 100vh;
+  display: flex;
+}
+
+
 
 p {
   font-size: 30px;
+  color: white;
+}
+
+span-one {
+  color: white;
+  font-size: 34px;
 }
 
 .auth-form-container, .login-form {
@@ -79,8 +96,4 @@ Link {
 
 li li:hover li:active {
     color: blue;
-}
-
-.login-form {
-
 }
