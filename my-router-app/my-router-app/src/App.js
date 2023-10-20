@@ -28,10 +28,7 @@ function App() {
           {/* </Route> */}
 
           <Route path='login' element={<Login setUser={setUser}></Login>} />
-          
-          <Route path='*' element={<NotFound />} />
-        </Route>
-        <Route
+          <Route
             path='dashboard'
             element={
 
@@ -43,6 +40,9 @@ function App() {
             <Route index element={<Profile />} />
 
           </Route>
+          <Route path='*' element={<NotFound />} />
+        </Route>
+       
       </Routes>
       
     </BrowserRouter>
